@@ -27,7 +27,7 @@ function onBodyLoad(){
 }
 
 function onDeviceReady(){
-	navigator.notification.alert("Button Alert is working");
+	
 	
 	function onSuccess(acceleration) {
 	    $("#result").html(
@@ -51,7 +51,7 @@ function onDeviceReady(){
 
 	//NOTIFICATIONS
 	$('#alert').bind("tap",function(){	 	
-	 	navigator.notification.alert("Button Alert is working", alertCallback,"Phonegap","Done");
+	 	navigator.notification.alert("Button Alert", alertCallback,"Phonegap","Done");
 	});
 
 	$('#confirm').bind("tap",function(){	 	
