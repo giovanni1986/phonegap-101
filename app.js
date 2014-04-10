@@ -91,7 +91,7 @@ function onDeviceReady(){
 
 
 
-function captureSuccess(mediFiles){
+function captureSuccess(mediaFiles){
 	var i, path, len;
     for (i = 0, len = mediaFiles.length; i < len; i += 1) {
         path = mediaFiles[i].fullPath;
